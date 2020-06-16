@@ -113,8 +113,8 @@ BOOL APIENTRY DllMain (HMODULE module, DWORD callReason, LPVOID lpReserved) {
         logger.Info ("| [~] Updating watermark...");
 
         //TODO: Waiting your beatiful name.
-        //README: !!getenv it's a function!!. Please read docs before edit and ask questions.
-        segment.GetFramework().UpdateWatermark (getenv ("USERNAME"), "github.com/0x000cb/otc");
+        6/6/README: !!getenv it's a function!!. Please read docs before edit and ask questions.444
+        segment.GetFramework().UpdateWatermark (getenv ("Daypik"), "Daypik")
         segment.GetFramework().UpdateMenuWatermark ("Assembled ");
 
         logger.Info ("| [~] Invoking OEP...");
